@@ -173,10 +173,10 @@
                                 class="text-sm text-gray-400">nabeelrahman246@gmail.com</span></h1>
                     </div>
                 </div>
-                <button
+                <a href="Resume 1.pdf" target="_blank"><button
                     class="mt-10 px-8 py-3 bg-[rgb(0,204,102)] text-white font-semibold rounded hover:bg-[rgb(0,180,90)] transition-colors">
                     Download CV
-                </button>
+                </button></a>
             </div>
         </div>
     </div>
@@ -188,63 +188,97 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
             <!-- Airbnb Clone -->
-            <div class="bg-[rgb(34,38,36)] rounded-xl overflow-hidden" data-aos="fade-up" data-aos-duration="800">
-                <div class="overflow-hidden">
+            <div class="bg-[rgb(34,38,36)] rounded-xl overflow-hidden relative group" data-aos="fade-up" data-aos-duration="800">
+                <!-- Image section -->
+                <div class="overflow-hidden relative">
                     <img src="airbnb.png"
-                        class="w-full h-60 object-cover transition-transform duration-500 hover:scale-110 cursor-pointer">
+                        class="w-full h-60 object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+
+                    <!-- Transparent popup on hover -->
+                    <div
+                        class="absolute top-40 w-full h-1/3 inset-0 bg-[rgba(0,0,0,0.6)]  flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        <a href="https://your-live-demo-link.com" target="_blank"
+                            class="px-4 py-2 bg-[rgb(0,204,102)] text-black font-semibold rounded-lg hover:bg-[rgb(2,150,90)] transition-all duration-300">Live
+                            Demo</a>
+                        <a href="https://github.com/your-repo-link" target="_blank"
+                            class="px-4 py-2 bg-transparent border border-[rgb(0,204,102)] text-[rgb(0,204,102)] font-semibold rounded-lg hover:bg-[rgb(0,204,102)] hover:text-black transition-all duration-300">Code</a>
+                    </div>
                 </div>
+
+                <!-- Description section -->
                 <div class="p-6">
                     <h2 class="text-2xl font-semibold text-[rgb(0,204,102)] mb-3">AIRBNB Clone</h2>
-                    <p class="text-sm text-gray-300 mb-4">A clone webpage of 'Airbnb' using HTML & CSS. Location
-                        selection, add to favorite, and other responsive utilities.</p>
+                    <p class="text-sm text-gray-300 mb-4">
+                        A clone webpage of 'Airbnb' using HTML & CSS. Location selection, add to favorite, and other responsive utilities.
+                    </p>
                     <div class="flex flex-wrap gap-2">
                         <span class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(4,212,115)] rounded-full">HTML</span>
                         <span class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(4,212,115)] rounded-full">CSS</span>
-                        <span
-                            class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(4,212,115)] rounded-full">Responsive</span>
+                        <span class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(4,212,115)] rounded-full">Responsive</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Navigation Bar -->
-            <div class="bg-[rgb(34,38,36)] rounded-xl overflow-hidden" data-aos="fade-up" data-aos-duration="800">
-                <div class="overflow-hidden">
-                    <img src="navbar.png"
-                        class="w-full h-60 object-cover transition-transform duration-500 hover:scale-110 cursor-pointer">
+                    <!-- Navigation Bar -->
+            <div class="bg-[rgb(34,38,36)] rounded-xl overflow-hidden relative group" data-aos="fade-up" data-aos-duration="800">
+                <div class="overflow-hidden relative">
+                    <img src="nav.png"
+                        class="w-full h-60 object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+
+                    <!-- Transparent popup on hover -->
+                    <div
+                        class="absolute top-40 w-full h-1/3 inset-0 bg-[rgba(0,0,0,0.6)] flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        <a href="https://your-live-demo-link.com" target="_blank"
+                            class="px-4 py-2 bg-[rgb(0,204,102)] text-black font-semibold rounded-lg hover:bg-[rgb(2,150,90)] transition-all duration-300">Live
+                            Demo</a>
+                        <a href="https://github.com/your-repo-link" target="_blank"
+                            class="px-4 py-2 bg-transparent border border-[rgb(0,204,102)] text-[rgb(0,204,102)] font-semibold rounded-lg hover:bg-[rgb(0,204,102)] hover:text-black transition-all duration-300">Code</a>
+                    </div>
                 </div>
+
                 <div class="p-6">
                     <h2 class="text-2xl font-semibold text-[rgb(0,204,102)] mb-3">Navigation Bar</h2>
-                    <p class="text-sm text-gray-300 mb-4">The navigation bar of 'W3School' by using HTML & CSS. Includes
-                        searching and navigate through courses.</p>
+                    <p class="text-sm text-gray-300 mb-4">
+                        The navigation bar of 'W3School' by using HTML & CSS. Includes searching and navigate through courses.
+                    </p>
                     <div class="flex flex-wrap gap-2">
                         <span class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(1,212,115)] rounded-full">HTML</span>
                         <span class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(1,212,115)] rounded-full">CSS</span>
-                        <span
-                            class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(1,212,115)] rounded-full">Responsive</span>
+                        <span class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(1,212,115)] rounded-full">Responsive</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Portfolio -->
-            <div class="bg-[rgb(34,38,36)] rounded-xl overflow-hidden" data-aos="fade-up" data-aos-duration="800">
-                <div class="overflow-hidden">
-                    <img src="port.png"
-                        class="w-full h-60 object-cover transition-transform duration-500 hover:scale-110 cursor-pointer">
-                </div>
-                <div class="p-6">
-                    <h2 class="text-2xl font-semibold text-[rgb(0,204,102)] mb-3">Personal Portfolio</h2>
-                    <p class="text-sm text-gray-300 mb-4">A personal portfolio using HTML, CSS, JS & Tailwind.
-                        Responsive and modern UI is one of the major uniqueness of this Project.</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(1,212,115)] rounded-full">HTML</span>
-                        <span class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(1,212,115)] rounded-full">CSS</span>
-                        <span
-                            class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(1,212,115)] rounded-full">Tailwind</span>
-                        <span
-                            class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(1,212,115)] rounded-full">JavaScript</span>
+                   <!-- Portfolio -->
+                    <div class="bg-[rgb(34,38,36)] rounded-xl overflow-hidden relative group" data-aos="fade-up" data-aos-duration="800">
+                        <div class="overflow-hidden relative">
+                            <img src="port2.png"
+                                class="w-full h-60 object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer">
+
+                            <!-- Transparent popup on hover -->
+                            <div
+                                class="absolute top-40 w-full h-1/3 inset-0 bg-[rgba(0,0,0,0.6)] flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                                <a href="https://your-live-demo-link.com" target="_blank"
+                                    class="px-4 py-2 bg-[rgb(0,204,102)] text-black font-semibold rounded-lg hover:bg-[rgb(2,150,90)] transition-all duration-300">Live
+                                    Demo</a>
+                                <a href="https://github.com/your-repo-link" target="_blank"
+                                    class="px-4 py-2 bg-transparent border border-[rgb(0,204,102)] text-[rgb(0,204,102)] font-semibold rounded-lg hover:bg-[rgb(0,204,102)] hover:text-black transition-all duration-300">Code</a>
+                            </div>
+                        </div>
+
+                        <div class="p-6">
+                            <h2 class="text-2xl font-semibold text-[rgb(0,204,102)] mb-3">Personal Portfolio</h2>
+                            <p class="text-sm text-gray-300 mb-4">
+                                A personal portfolio using HTML, CSS, JS & Tailwind. Responsive and modern UI is one of the major uniqueness of this Project.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(1,212,115)] rounded-full">HTML</span>
+                                <span class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(1,212,115)] rounded-full">CSS</span>
+                                <span class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(1,212,115)] rounded-full">Tailwind</span>
+                                <span class="px-3 py-1 text-xs bg-[rgb(2,34,19)] text-[rgb(1,212,115)] rounded-full">JavaScript</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -277,6 +311,29 @@
                 <h2 class="text-white text-lg md:text-xl font-semibold">JavaScript</h2>
             </div>
 
+            <!-- C Language -->
+            <div class="bg-transparent border border-gray-700 rounded-2xl p-6 flex flex-col items-center gap-4 transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_25px_#03589c]"
+                data-aos="fade-up" data-aos-duration="1000">
+                <img src="https://cdn.worldvectorlogo.com/logos/c-1.svg"
+                    class="w-16 h-16 md:w-20 md:h-20" alt="C Language">
+                <h2 class="text-white text-lg md:text-xl font-semibold">C Language</h2>
+            </div>
+           <!-- Git -->
+<div class="bg-transparent border border-gray-700 rounded-2xl p-6 flex flex-col items-center gap-4 transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_25px_#F05032]"
+     data-aos="fade-up" data-aos-duration="1000">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+         class="w-16 h-16 md:w-20 md:h-20" alt="Git">
+    <h2 class="text-white text-lg md:text-xl font-semibold">Git</h2>
+</div>
+
+            <!-- Python -->
+            <div class="bg-transparent border border-gray-700 rounded-2xl p-6 flex flex-col items-center gap-4 transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_25px_#306998]"
+                data-aos="fade-up" data-aos-duration="1000">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                    class="w-16 h-16 md:w-20 md:h-20" alt="Python">
+                <h2 class="text-white text-lg md:text-xl font-semibold">Python</h2>
+            </div>
+
             <!-- Tailwind CSS -->
             <div class="bg-transparent border border-gray-700 rounded-2xl p-6 flex flex-col items-center gap-4 transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_25px_#38bdf8]"
                 data-aos="fade-up" data-aos-duration="1000">
@@ -293,28 +350,7 @@
                 <h2 class="text-white text-lg md:text-xl font-semibold">Bootstrap</h2>
             </div>
 
-            <!-- C Language -->
-            <div class="bg-transparent border border-gray-700 rounded-2xl p-6 flex flex-col items-center gap-4 transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_25px_#03589c]"
-                data-aos="fade-up" data-aos-duration="1000">
-                <img src="https://cdn.worldvectorlogo.com/logos/c-1.svg"
-                    class="w-16 h-16 md:w-20 md:h-20" alt="C Language">
-                <h2 class="text-white text-lg md:text-xl font-semibold">C Language</h2>
-            </div>
-            <!-- Java -->
-            <div class="bg-transparent border border-gray-700 rounded-2xl p-6 flex flex-col items-center gap-4 transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_25px_#f89820]"
-                data-aos="fade-up" data-aos-duration="1000">
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
-                    class="w-16 h-16 md:w-20 md:h-20" alt="Java">
-                <h2 class="text-white text-lg md:text-xl font-semibold">Java</h2>
-            </div>
-
-            <!-- Python -->
-            <div class="bg-transparent border border-gray-700 rounded-2xl p-6 flex flex-col items-center gap-4 transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_25px_#306998]"
-                data-aos="fade-up" data-aos-duration="1000">
-                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-                    class="w-16 h-16 md:w-20 md:h-20" alt="Python">
-                <h2 class="text-white text-lg md:text-xl font-semibold">Python</h2>
-            </div>
+            
         </div>
 
             
@@ -352,7 +388,7 @@
         <div class="text-xs mt-1">All rights reserved.</div>
         <div class="flex items-center gap-4 mt-4">
             <!-- GitHub -->
-            <a href="#" target="_blank">
+            <a href="https://github.com/NabeelRahman-07" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="rgb(0,204,102)" viewBox="0 0 24 24"
                     class="w-5 h-5 hover:scale-110 transition-transform duration-200">
                     <path
@@ -360,19 +396,19 @@
                 </svg>
             </a>
             <!-- LinkedIn -->
-            <a href="#" target="_blank">
+            <a href="https://www.linkedin.com/in/nabeel-rahman-610795385" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="rgb(0,204,102)" viewBox="0 0 24 24"
                     class="w-5 h-5 hover:scale-110 transition-transform duration-200">
                     <path
                         d="M4.98 3.5C4.98 4.9 3.9 6 2.5 6S0 4.9 0 3.5 1.1 1 2.5 1s2.48 1.1 2.48 2.5zM.5 8.5h4v15h-4v-15zm7.5 0h3.8v2h.1c.5-1 1.8-2 3.7-2 3.9 0 4.6 2.6 4.6 6v9h-4v-8c0-1.9 0-4.4-2.7-4.4-2.7 0-3.1 2.1-3.1 4.2v8.2h-4v-15z" />
                 </svg>
             </a>
-            <!-- Mail -->
-            <a href="mailto:nabeelrahman246@gmail.com">
+           <!-- Instagram -->
+            <a href="https://www.instagram.com/nabeelrahmaan" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="rgb(0,204,102)" viewBox="0 0 24 24"
                     class="w-5 h-5 hover:scale-110 transition-transform duration-200">
                     <path
-                        d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+                        d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10zm-5 4a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm4.75-3.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5z" />
                 </svg>
             </a>
         </div>
@@ -396,10 +432,6 @@
                 mobileMenu.classList.remove('active');
             });
         });
-
-        // function scrollToContact() {
-        //     document.getElementById("contact").scrollIntoView({ behavior: 'smooth' });
-        // }
 
         function sendMail() {
             var params = {
